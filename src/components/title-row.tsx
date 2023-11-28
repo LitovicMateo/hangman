@@ -32,6 +32,10 @@ const TitleRow: React.FC<Props> = ({ array, size, fontStyle, game }) => {
 								}}
 								exit={{
 									opacity: 0,
+									transition: {
+										duration: 2,
+										delay: 0.5 + 1.2 * delay
+									}
 								}}
 								className={`
 					${size === "lg" && "text-2xl "}

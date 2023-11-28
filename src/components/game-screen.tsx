@@ -83,7 +83,7 @@ const GameScreen = () => {
 			animate={{
 				opacity: 1,
 				transition: {
-					delay: 2,
+					delay: 4.6,
 					duration: 2
 				}
 			}}
