@@ -48,7 +48,6 @@ const IntroScreen: React.FC<Props> = ({ startGame, game }) => {
 				variants={variants}
 				className="bg-[url('https://www.filterforge.com/filters/11294.jpg')] bg-blend-overlay bg-cover w-[50%] h-full border-r-2 border-gray-700 drop-shadow-lg"
 			>
-				<img src="https://i.pngimg.me/thumb/f/720/m2i8K9m2H7Z5H7d3.jpg" alt="" />
 			</motion.div>
 			<motion.div
 				initial="closed"
